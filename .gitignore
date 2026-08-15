@@ -1,0 +1,19 @@
+# MATLAB auto-save backups
+*.asv
+
+# Generated data files
+extracted_features.csv
+prepared_data*.mat
+user_reference_templates*.mat
+classification_results.mat
+
+# Generated directories
+user_features/
+
+# MATLAB session / workspace
+*.mat
+!user_reference_templates.mat
+
+# OS files
+.DS_Store
+Thumbs.db
